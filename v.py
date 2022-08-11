@@ -1,6 +1,6 @@
 print("Bitte geben sie  den text ein den  sie entschlüsseln wollen")
 nachischt_str = input()
-print("Bitte  geben sie den  schlüssel ein  mit den  sie  den text enschlüsseln wollen")
+print("Bitte  geben sie den  schlüssel ein  mit den  sie  den text verschlüsseln wollen")
 Schlüssel_int = int(input())
 
 cipher_str = ""
@@ -24,4 +24,6 @@ for ch in nachischt_str:
     else:
        cipher_str = cipher_str + ch
 
-print("Der entschlüsselte text lautet :  "+ cipher_str)
+print( "Der Klar text lautet :  "+ nachischt_str )
+
+print("Der Geheimtext lautet :  "+ cipher_str)
